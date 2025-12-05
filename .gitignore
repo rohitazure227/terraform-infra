@@ -1,0 +1,35 @@
+# Local .terraform files
+.terraform/
+.terraform.lock.hcl
+
+# Terraform state files
+*.tfstate
+*.tfstate.*
+terraform.tfstate
+terraform.tfstate.backup
+
+# Crash logs
+crash.log
+*.crash
+
+# Sensitive variable files
+*.tfvars
+*.tfvars.json
+
+# Override files (used locally only)
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# .DS_Store (Mac)
+.DS_Store
+
+# IDE specific folders
+.vscode/
+.idea/
+
+# Python virtual environment (if using scripts)
+venv/
+__pycache__/
+.terraform/
